@@ -67,7 +67,13 @@ FROM data_analyst_jobs
 
 -- SELECT DISTINCT
 -- title 
--- FROM data
+-- FROM data_analyst_jobs
+-- WHERE Upper(title) LIKE Upper('%Analyst%')--help from Alex with the Upper function 
+--11) 774 rows
 
-
+-- SELECT DISTINCT
+-- title
+-- FROM data_analyst_jobs
+-- WHERE Upper(title) NOT LIKE Upper('%Analyst%') AND Upper(title) NOT LIKE Upper('%Analytics%')
+--12) 4 rows 
 
