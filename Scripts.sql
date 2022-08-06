@@ -77,3 +77,14 @@ FROM data_analyst_jobs
 -- WHERE Upper(title) NOT LIKE Upper('%Analyst%') AND Upper(title) NOT LIKE Upper('%Analytics%')
 --12) 4 rows 
 
+-- Select 
+-- domain,
+-- Count(title)
+-- FROM data_analyst_jobs
+-- WHERE skill LIKE '%SQL%'
+-- AND domain IS NOT NULL
+-- AND days_since_posting > '00:00:21'
+-- GROUP BY 1
+-- ORDER BY count DESC
+--bonus 26 rows: consulting & Business Srvs, Comsumer Goods & Srvs, Computers & Electronics
+
